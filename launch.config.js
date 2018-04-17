@@ -1,7 +1,7 @@
 'use strict'
 
-const address = 'rBV1HqNzQiRz9o3pKxJseDijbToSYwUoB8'
-const secret = 'snACtXQBfQnZKJLUWqPeGYASiQxwk'
+const address = 'ADDRESS'
+const secret = 'SECRET'
 
 const parentConnector = {
     relation: 'parent',
@@ -39,7 +39,7 @@ const connectorApp = {
         CONNECTOR_SPREAD: '0',
         CONNECTOR_ADMIN_API: true,
         CONNECTOR_ADMIN_API_PORT: 7769,
-        CONNECTOR_STORE_PATH: '/Users/dinorodriguez/connector-data',
+        CONNECTOR_STORE_PATH: '/Users/USERNAME/connector-data',
         CONNECTOR_ACCOUNTS: JSON.stringify({
             parent: parentConnector,
             local: miniAccounts
