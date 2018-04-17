@@ -7,7 +7,7 @@
 npm install -g ilp-connector ilp-plugin-btp ilp-plugin-xrp-asym-client ilp-plugin-mini-accounts
 ilp-spsp ilp-spsp-server pm2
 
-CONNECTOR_STORE_PATH=~/.connector-data CONNECTOR_ACCOUNTS='{}' CONNECTOR_ILP_ADDRESS=test.quickstart ilp-connector
+CONNECTOR_STORE_PATH=~/.connector-data CONNECTOR_ACCOUNTS='{}' CONNECTOR_ILP_ADDRESS=test.quickstart
 ```
 
 2. Open launch.config.js. Inside you will see 2 plugins at the top. The 
