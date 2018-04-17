@@ -14,8 +14,8 @@ const parentConnector = {
         settleTo: '100000'
     },
     options: {
-        server: 'btp+wss://client.scyl.la',
-        xrpServer: 'wss://s1.ripple.com',
+        server: 'btp+wss://amundsen.ilpdemo.org:1801',
+        xrpServer: 'wss://s.altnet.rippletest.net:51233',
         address,
         secret
     }
